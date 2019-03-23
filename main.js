@@ -1,17 +1,8 @@
 function testapi(){
     $.getJSON("test.json",function(data) {
         console.log(data);
+        $('#area').val(data.name)
     });
-
-    $.ajax({
-        type: json,
-        url: test,
-        async: true, //trueなら非同期処理。falseなら同期処理。
-        succses: function(mes){
-            console.log(mes)
-            $('#area').val(mes.name)
-        }
-      });
 }
 
 function zipcloud(){
