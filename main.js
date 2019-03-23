@@ -14,7 +14,7 @@ function zipcloud(){
               q: "javascript"
           },
           succses: function(mes){
-              console.log(mes)
+              console.log(mes);
           }
         });
 }
