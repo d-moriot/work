@@ -6,10 +6,9 @@ function testapi(){
 
     request.onload = function() {
         var introduction = request.response;
-        console.log(introduction);
+        console.log(introduction.name);
         $('#name').val(introduction.name);
         $('#age').val(introduction.age);
         $('#hobby').val(introduction.hoby[1]);
-        
       };
 }
