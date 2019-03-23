@@ -34,26 +34,6 @@
     border: none;
     cursor: pointer;
   }
-
-  button {
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 5px;
-    border: 0cm;
-    text-shadow: 1px 1px 3px #666166;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #0041a1;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin: 20px;
-}
-  
-button:hover {
-    background: #3cb0fd;
-    text-decoration: none;
-}
   
   /* 共通レイアウト ================================ */
   body {
@@ -211,3 +191,22 @@ button:hover {
   .about-img {
     width: 84%;
   }
+  button {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 5px;
+    border: 0cm;
+    text-shadow: 1px 1px 3px #666166;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0041a1;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+  
+button:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
