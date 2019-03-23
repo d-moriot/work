@@ -1,7 +1,6 @@
 function testapi(){
     $.getJSON("test.json",function(data) {
         console.log(data);
-        document.getElementById();
     });
 
     $.ajax({
@@ -10,7 +9,7 @@ function testapi(){
         async: true, //trueなら非同期処理。falseなら同期処理。
         succses: function(mes){
             console.log(mes)
-            $('#area').val(mes)
+            $('#area').val(mes.name)
         }
       });
 }
