@@ -7,9 +7,9 @@ function testapi(){
     request.onload = function() {
         var introduction = request.response;
         console.log(introduction);
-        $('.name').val(introduction.name);
-        $('.name').val(introduction.age);
-        $('.name').val(introduction.hoby[1]);
+        $('#name').val(introduction.name);
+        $('#age').val(introduction.age);
+        $('#hobby').val(introduction.hoby[1]);
         
       };
 }
