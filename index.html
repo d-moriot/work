@@ -7,39 +7,24 @@
   <title>day4</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-  <script src="//code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </head>
 
 <body>
   <div class="main top-main">
     <div class="top-message">
-      <h2>俺のこと</h2>
+      <h2>自己紹介くん</h2>
     </div>
     <div class="about-main">
-      <h3>名前:</h3>
-      <h3>年齢:</h3>
-      <h3>趣味:</h3>
-      <h3>好きな食べ物:</h3>
+      <button id="testapi1" onclick="testapi();">知りたい</button>
+      <button id="apiNode1" onclick="apiNode();">知りたい</button>
     </div>
-    <div class="about-main"></div>
-    <div class="form">
-      <input id="name" value=""></input>
+    <div id="wrapper">
+      <ul id="profile-wrapper"></ul>
     </div>
-    <div class="form">
-      <input id="age" value=""></input>
+    <div id="container">
+      <ul id="profile-container"></ul>
     </div>
-    <div class="form">
-      <input id="hobby" value=""></input>
-    </div>
-    <div class="form">
-      <input id="food" value=""></input>
-    </div>
-    <div class="about-main">
-        <button id="testapi" onclick="testapi();">知りたい</button>
-      </div>
-  </div>
   </div>
 </body>
 

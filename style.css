@@ -147,7 +147,6 @@
     border-radius: 2px;
     margin-top: 8px;
     margin-bottom: 0;
-    float: right;
   }
   
   .form-body:after {
@@ -165,8 +164,6 @@
 
 .about-main {
     color: white;
-    width: 280px;
-    float: left;
   }
   
   .about-main h2 {
@@ -209,4 +206,12 @@
 button:hover {
     background: #3cb0fd;
     text-decoration: none;
+}
+
+#container{
+  color: #bcc8d4;
+}
+
+#wrapper{
+  color: #3cb0fd;
 }
